@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Orbitron:wght@400;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  --font-display: 'Orbitron', system-ui, sans-serif;
+}
+
+body {
+  @apply bg-slate-950 text-cyan-500 overflow-hidden;
+}
+
+.neon-text-fuchsia {
+  text-shadow: 0 0 10px rgba(217, 70, 239, 0.8), 0 0 20px rgba(217, 70, 239, 0.4);
+}
+
+.neon-text-cyan {
+  text-shadow: 0 0 10px rgba(34, 211, 238, 0.8), 0 0 20px rgba(34, 211, 238, 0.4);
+}
+
+.neon-border-fuchsia {
+  box-shadow: 0 0 15px rgba(217, 70, 239, 0.5), inset 0 0 15px rgba(217, 70, 239, 0.3);
+}
+
+.neon-border-cyan {
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.5), inset 0 0 15px rgba(34, 211, 238, 0.3);
+}

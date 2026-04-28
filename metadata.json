@@ -1,0 +1,6 @@
+{
+  "name": "Snake.Wav",
+  "description": "A neon-aesthetic web app combining a Music Player with 3 AI-generated dummy tracks and a playable Snake Game.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
